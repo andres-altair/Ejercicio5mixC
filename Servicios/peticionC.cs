@@ -8,16 +8,16 @@ namespace Ejercicio5mixC.Servicios
 {
     internal class peticionC : peticionI
     {
-        public int pedirAnyo()
+        public int pedirAnnio()
         {
-            Console.WriteLine("Escribe un Año: ");
-            int anyo = int.Parse(Console.ReadLine());
-            return anyo;
+            Console.WriteLine("escribe un año: ");
+            int annio = int.Parse(Console.ReadLine());
+            return annio;
         }
 
         public int pedirMes()
         {
-            Console.WriteLine("Escribe un Mes: ");
+            Console.WriteLine("escribe un mes: ");
             int mes = int.Parse(Console.ReadLine());
             return mes;
         }

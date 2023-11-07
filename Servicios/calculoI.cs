@@ -20,7 +20,7 @@ namespace Ejercicio5mixC.Servicios
         /// <param name="mes"></param>
         /// <param name="año"></param>
         /// <returns> int </returns>
-        public int PedirDia(int mes, int año);
+        public int PedirDia(int mes, int annio);
     
     }
 }

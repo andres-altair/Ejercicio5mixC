@@ -24,7 +24,7 @@ namespace Ejercicio5mixC.Servicios
         /// 071123-amd
         /// </summary>
         /// <returns> int </returns>
-        public int pedirAnyo();
+        public int pedirAnnio();
 
     }
 }

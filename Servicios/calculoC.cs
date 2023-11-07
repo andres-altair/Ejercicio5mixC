@@ -8,13 +8,13 @@ namespace Ejercicio5mixC.Servicios
 {
     internal class calculoC : calculoI
     {
-        public static bool Bisiesto(int año)
+        public static bool Bisiesto(int annio)
         {
-            return (año % 4 == 0 && año % 100 != 0) || (año % 400 == 0);
+            return (annio % 4 == 0 && annio % 100 != 0) || (annio % 400 == 0);
         }
         
 
-        public int PedirDia(int mes, int año)
+        public int PedirDia(int mes, int annio)
         {
             int dia;
             if (mes == 4 || mes == 6 || mes == 9 || mes == 11)
@@ -23,7 +23,7 @@ namespace Ejercicio5mixC.Servicios
             }
             else if (mes == 2)
             {
-                if (Bisiesto(año))
+                if (Bisiesto(annio))
                 {
                     dia = 29;
                 }
